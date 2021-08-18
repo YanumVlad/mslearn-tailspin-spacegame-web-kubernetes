@@ -42,3 +42,6 @@ spec:
           image: tailspinspacegame6685.azurecr.io/leaderboard
           ports:
           - containerPort: 80
+          env:
+           - name: ASPNETCORE_ENVIRONMENT
+             value: Development           
